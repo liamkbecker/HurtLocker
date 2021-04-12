@@ -10,8 +10,9 @@ public class Main {
     }
 
     public static void main(String[] args) throws Exception{
-        String output = (new Main()).readRawDataToString();
-        System.out.println(output);
+        Parser parser = new Parser();
+        //String temp = (new Main()).readRawDataToString();
+        System.out.println(parser.countOccurences("milk"));
 
     }
 }
