@@ -18,6 +18,10 @@ public class Workflow {
         stmtAppears("0.25");
         stmtAppears("0.23");
 
+        output = output + "\n";
+
+        stmtAppears(":;");
+
         return output;
 
     }

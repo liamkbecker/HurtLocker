@@ -21,7 +21,11 @@ public class Parser {
 
     }
 
-    public String givenAfter() throws Exception {
+
+
+
+
+    /*public String givenAfter() throws Exception {
 
         String output = "";
         String text = (new Main()).readRawDataToString().toLowerCase();
@@ -49,7 +53,7 @@ public class Parser {
 
         return output;
 
-    }
+    }*/
 
 
 }
