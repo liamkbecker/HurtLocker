@@ -38,7 +38,12 @@ public class Parser {
             checkEnds.add(matcher.start());
         }
 
-
+        for(int i = 0; i < checkEnds.size(); i++){
+            for(int j = checkStarts.get(i); j < checkEnds.get(i); j++){
+                output = output + text.charAt(i);
+            }
+            output = output + "\n";
+        }
 
         return output;
 
