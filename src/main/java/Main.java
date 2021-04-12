@@ -11,7 +11,6 @@ public class Main {
 
     public static void main(String[] args) throws Exception{
         Workflow w = new Workflow();
-        //String temp = (new Main()).readRawDataToString();
         System.out.println(w.build());
 
     }

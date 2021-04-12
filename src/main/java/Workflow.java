@@ -15,7 +15,7 @@ public class Workflow {
     }
 
     public void stmtAppears(String item) throws Exception {
-        output = output + item + " appears " + parser.countOccurences(item) + " times.\n";
+        output = output + item + " appears " + parser.countOccurrences(item) + " times.\n";
     }
 
 }
