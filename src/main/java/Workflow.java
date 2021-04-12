@@ -10,6 +10,14 @@ public class Workflow {
         stmtAppears("cookies");
         stmtAppears("bread");
 
+        output = output + "\n";
+
+        stmtAppears("3.23");
+        stmtAppears("1.23");
+        stmtAppears("2.25");
+        stmtAppears("0.25");
+        stmtAppears("0.23");
+
         return output;
 
     }

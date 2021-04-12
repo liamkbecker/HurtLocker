@@ -11,11 +11,11 @@ public class Main {
 
     public static void main(String[] args) throws Exception{
 
-        //Workflow w = new Workflow();
-        //System.out.println(w.build());
+        Workflow w = new Workflow();
+        System.out.println(w.build());
 
-        Parser p = new Parser();
-        System.out.println(p.givenAfter());
+        //Parser p = new Parser();
+        //System.out.println(p.givenAfter());
 
     }
 }
