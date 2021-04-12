@@ -10,9 +10,9 @@ public class Main {
     }
 
     public static void main(String[] args) throws Exception{
-        Parser parser = new Parser();
+        Workflow w = new Workflow();
         //String temp = (new Main()).readRawDataToString();
-        System.out.println(parser.countOccurences("milk"));
+        System.out.println(w.build());
 
     }
 }
